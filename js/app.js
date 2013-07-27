@@ -5,7 +5,8 @@ require.config({
         "underscore": "libs/underscore",
         "backbone": "libs/backbone",
         "bootstrap": "libs/bootstrap",
-        "json2": "libs/json2"
+        "json2": "libs/json2",
+        "backboneLocalStorage": "libs/backboneLocalStorage"
     },
 
     shim: {
@@ -13,8 +14,8 @@ require.config({
         "backbone": {
             "deps": ["underscore", "jquery", "json2"],
             "exports": "Backbone"
-
-        }
+        },
+        "backboneLocalStorage": ["backbone"]
     }
 });
 
