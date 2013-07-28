@@ -5,3 +5,12 @@ ul{
 li{
     list-style: none;
 }
+
+.product-item {
+    height:150px;
+    text-align: center;
+}
+
+.basket-product-item {
+    height:150px;
+}

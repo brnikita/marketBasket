@@ -1,5 +1,4 @@
 require.config({
-    urlArgs: "bust=" + (new Date()).getTime(),
     paths: {
         "jquery": "libs/jquery",
         "underscore": "libs/underscore",
@@ -22,34 +21,28 @@ require.config({
 var App = {
 
     /**
+     * Экземпляр класса вида товаров
+     *
      * @public
-     * @function
-     * @name App.init
-     * @param {Backbone} Backbone
-     * @param {Backbone.View} Views
-     * @param {Backbone.Router} Router
-     * @returns {undefined}
+     * @name App.productsView
+     * @type {Views.Products}
      */
-    init: function (Backbone, Views, Router) {
-
-        this.addListeners();
-    },
+    productsView: null,
 
     /**
-     * Добавляем обработчики событий
+     * Экземпляр класса вида товаров в корзине
      *
-     * @private
-     * @function
-     * @name App.addListeners
-     * @returns {undefined}
+     * @public
+     * @name App.basketProductsView
+     * @type {Views.BasketProducts}
      */
-    addListeners: function () {
-    }
+    basketProductsView: null
 };
 
 require(
-    ['backbone', 'app/views', 'app/router', 'bootstrap'],
-    function (Backbone, Views, Router) {
-        App.init(Backbone, Views, Router);
+    ['app/views', 'bootstrap'],
+    function (Views) {
+        App.productsView = new Views.Products();
+        App.basketProductsView = new Views.BasketProducts();
     }
 );

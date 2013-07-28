@@ -1,0 +1,68 @@
+[
+    {
+        "productId": 1,
+        "img": "/img/products/i.jpg",
+        "description": "Мобильный",
+        "price": "123 руб."
+    },
+    {
+        "productId": 2,
+        "img": "/img/products/i1.jpg",
+        "description": "Макбук",
+        "price": "234 руб."
+    },
+    {
+        "productId": 3,
+        "img": "/img/products/i2.jpg",
+        "description": "Айфон",
+        "price": "123 руб."
+    },
+    {
+        "productId": 4,
+        "img": "/img/products/i3.jpg",
+        "description": "Айпад",
+        "price": "345 руб."
+    },
+    {
+        "productId": 5,
+        "img": "/img/products/i4.jpg",
+        "description": "Ноутбук",
+        "price": "234 руб."
+    },
+    {
+        "productId": 6,
+        "img": "/img/products/i5.jpg",
+        "description": "Планшет",
+        "price": "115 руб."
+    },
+    {
+        "productId": 7,
+        "img": "/img/products/i6.jpg",
+        "description": "Планшет2",
+        "price": "123 руб."
+    },
+    {
+        "productId": 8,
+        "img": "/img/products/i7.jpg",
+        "description": "Нокиа",
+        "price": "567 руб."
+    },
+    {
+        "productId": 9,
+        "img": "/img/products/i8.jpg",
+        "description": "Ещё планшет",
+        "price": "1000 руб."
+    },
+    {
+        "productId": 10,
+        "img": "/img/products/i9.jpg",
+        "description": "Redmond",
+        "price": "111 руб."
+    },
+    {
+        "productId": 11,
+        "img": "/img/products/i10.jpg",
+        "description": "Nikon",
+        "price": "1234 руб."
+    }
+]
