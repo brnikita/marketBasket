@@ -1,4 +1,4 @@
-<h1><a href="http://market-basket.lidersbor.ru/">Демо</a></h1>
+<h1><a href="http://market-basket.soshace.com/">Демо</a></h1>
 <h3>Задание</h3>
 <p>Реализовать на javascript корзину покупателя. Корзина должна
     хранить состояние между сессиями браузера.
